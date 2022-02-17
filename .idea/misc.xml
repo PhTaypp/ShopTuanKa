@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/bg_bottom.xml" value="0.13802083333333334" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/bg_button2.xml" value="0.13802083333333334" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/bg_button3.xml" value="0.25833333333333336" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/bg_spinner.xml" value="0.17291666666666666" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/ic_account.xml" value="0.2518518518518518" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/ic_cart.xml" value="0.1140625" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/ic_check_circle.xml" value="0.13802083333333334" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/ic_notifications.xml" value="0.1140625" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/drawable/ic_search.xml" value="0.1140625" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/activity_main.xml" value="0.11666666666666667" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/dialog_confirm.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_cart.xml" value="0.11666666666666667" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_delivery_address.xml" value="0.2" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_detail.xml" value="0.11666666666666667" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_dialog_add_cart.xml" value="0.2" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_dialog_buy_product.xml" value="0.12771739130434784" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_history.xml" value="0.11666666666666667" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_home.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_home_viewpager.xml" value="0.11354166666666667" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_menu.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_payment.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_payment_failed.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_payment_method.xml" value="0.264" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_payment_success.xml" value="0.11666666666666667" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_popup_add_cart.xml" value="0.2" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_popup_buy_product.xml" value="0.2" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_register.xml" value="0.2" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_register_success.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_search.xml" value="0.10461956521739131" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_splash.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/fragment_welcome.xml" value="0.264" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/layout/item_product_home_fragment.xml" value="0.2421875" />
+        <entry key="..\:/Baitaplon/ShopTuanKa/ShopTuanKa/app/src/main/res/menu/menu_main.xml" value="0.2421875" />
+        <entry key="app/src/main/res/drawable-v24/checkbox_tab.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/drawable-v24/gradient.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/drawable-v24/home_btn_shape_round.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/drawable/bg_bottom.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/drawable/bg_button2.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/drawable/bg_button3.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/drawable/bg_navigation_bottom.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/drawable/bg_spinner.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/layout/dialog_confirm.xml" value="0.32608695652173914" />
+        <entry key="app/src/main/res/layout/fragment_cart.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_delivery_address.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_dialog_add_cart.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_dialog_buy_product.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_home_viewpager.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.32608695652173914" />
+        <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_payment_failed.xml" value="0.32608695652173914" />
+        <entry key="app/src/main/res/layout/fragment_payment_method.xml" value="0.32608695652173914" />
+        <entry key="app/src/main/res/layout/fragment_payment_success.xml" value="0.16742654508611957" />
+        <entry key="app/src/main/res/layout/fragment_register_success.xml" value="0.32608695652173914" />
+        <entry key="app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_product_cart_fragment.xml" value="0.32608695652173914" />
+        <entry key="app/src/main/res/layout/item_product_home_fragment.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

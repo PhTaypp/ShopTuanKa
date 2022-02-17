@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="@string/shop_name"
+            android:textColor="#C62828"
+            android:textSize="21dp" />
+
+        <ImageView
+            android:padding="16dp"
+            android:id="@+id/ivNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_notifications" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BA000000" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="5">
+
+        <ImageView
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:background="@drawable/ic_launcher_background" />
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_above="@id/navigation_bottom"
+            android:layout_alignParentTop="true"
+            tools:itemCount="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:background="#558B2F"
+            app:itemIconTint="#C62828"
+            app:itemTextColor="@color/white"
+            app:menu="@menu/menu_main" />
+    </RelativeLayout>
+
+
+</LinearLayout>

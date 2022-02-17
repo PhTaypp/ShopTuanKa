@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="16dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:text="@string/DeliveryAddress"
+            android:textStyle="bold"
+            android:textColor="#C62828"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#94000000" />
+
+    <LinearLayout
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/country_spinner"
+                android:layout_centerHorizontal="true"
+                android:text="@string/country"
+                android:textColor="#C62828" />
+
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/country_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_spinner"
+                android:gravity="center"
+                android:hint="@string/vina"
+                android:padding="10dp"
+                android:textSize="14.5sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_padding="8dp"
+                app:spinner_arrow_tint="@color/black"
+
+                app:spinner_divider_show="true"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_item_array="@array/country_array"
+                app:spinner_popup_animation="dropdown"
+                app:spinner_popup_background="@color/white"
+                app:spinner_popup_elevation="14dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/province_spinner"
+                android:layout_centerHorizontal="true"
+                android:text="@string/province"
+                android:textColor="#C62828" />
+
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/province_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_spinner"
+                android:gravity="center"
+                android:hint="@string/HaNoi"
+                android:padding="10dp"
+                android:textSize="14.5sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_padding="8dp"
+                app:spinner_arrow_tint="@color/black"
+
+                app:spinner_divider_show="true"
+                app:spinner_divider_size="0.4dp"
+                app:spinner_item_array="@array/province_array"
+                app:spinner_popup_animation="dropdown"
+                app:spinner_popup_background="@color/white"
+                app:spinner_popup_elevation="14dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/edtCity"
+                android:layout_centerHorizontal="true"
+                android:text="@string/city"
+                android:textColor="#C62828" />
+
+            <EditText
+                android:id="@+id/edtCity"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_spinner"
+                android:hint="@string/hintDistrict"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/edtZip"
+                android:layout_centerHorizontal="true"
+                android:text="@string/wards"
+                android:textColor="#C62828" />
+
+            <EditText
+
+                android:id="@+id/edtZip"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_spinner"
+                android:hint="@string/wards"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:text="@string/Address1"
+            android:textColor="#C62828" />
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tvAddress"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_spinner"
+            android:hint="@string/hintAddress"
+            android:textColor="#C62828" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/tvPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:text="@string/phoneNumber"
+            android:textColor="#C62828" />
+
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tvPhoneNumber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/bg_spinner"
+            android:inputType="phone"
+            android:textColor="#C62828" />
+
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#94000000" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:backgroundTint="#C62828"
+        android:text="@string/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <CheckBox
+        android:textColor="#C62828"
+        android:text="@string/rememberAddress"
+        android:id="@+id/cbxRememberAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

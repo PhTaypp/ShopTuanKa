@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/splash_fragment">
+
+    <fragment
+        android:id="@+id/splash_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.SplashFragment"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/actWelcome"
+            app:destination="@id/welcome_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcome_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/actRegister"
+            app:destination="@id/register_fragment" />
+
+        <action
+            android:id="@+id/actLogin"
+            app:destination="@id/login_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/register_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.register.RegisterFragment"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/actLogin"
+            app:destination="@id/login_fragment" />
+
+        <action
+            android:id="@+id/actRegisterSuccess"
+            app:destination="@id/register_success_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.login.LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/actRegister"
+            app:destination="@id/register_fragment" />
+        <action
+            android:id="@+id/actHome"
+            app:destination="@id/home_viewpager_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/register_success_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.RegisterSuccessFragment"
+        tools:layout="@layout/fragment_register_success">
+        <action
+            android:id="@+id/actHome"
+            app:destination="@id/home_viewpager_fragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/home_viewpager_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.HomeViewPagerFragment"
+        tools:layout="@layout/fragment_home_viewpager">
+        <action
+            android:id="@+id/actDetail"
+            app:destination="@id/detail_fragment" />
+        <action
+            android:id="@+id/actProfile"
+            app:destination="@id/profile_fragment" />
+
+    </fragment>
+    <fragment android:id="@+id/detail_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <action android:id="@+id/actHome"
+            app:destination="@id/home_viewpager_fragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.shoptuanka.ui.fragment.ProfileFragment"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/actLogin"
+            app:destination="@id/login_fragment" />
+    </fragment>
+
+
+</navigation>

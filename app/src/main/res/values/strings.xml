@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">ShopTuanKa</string>
+    <string name="app_name2">SHOP TUẤN KA</string>
+    <string name="welcome">Chào mừng bạn đến</string>
+    <string name="shop_name">SHOP TUẤN KA</string>
+    <string name="shop_sell">Chuyên các sản phẩm giày cao cấp.</string>
+    <string name="login">Đăng nhập</string>
+    <string name="or">or</string>
+    <string name="register">Đăng ký</string>
+    <string name="nameLogin">Tên đăng nhập</string>
+    <string name="passwordLogin">Mật khẩu</string>
+    <string name="questionLogin">Bạn chưa có tài khoản?</string>
+    <string name="FullName">Họ tên</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber">Số điện thoại</string>
+    <string name="confirmPassword">Xác nhận mật khẩu</string>
+    <string name="questionRegister">Bạn đã có tài khoản?</string>
+    <string name="registerSuccess">ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="thank">CẢM ƠN BẠN ĐÃ</string>
+    <string name="Account">Account</string>
+    <string name="Find">Find</string>
+    <string name="Home">Home</string>
+    <string name="Cart">Cart</string>
+    <string name="detail">Thông tin sản phẩm</string>
+    <string name="ProductName">{Tên sản phẩm}</string>
+    <string name="ProductDetail">{Nội dung sản phẩm}</string>
+    <string name="addCart">Cho vào giỏ</string>
+    <string name="buy">Mua ngay</string>
+    <string name="cost">2.000.000 đ</string>
+    <string name="story">Kho : </string>
+    <string name="num_story">999 </string>
+    <string name="number">1</string>
+    <string name="size">Size</string>
+    <string name="quanlity">Số lượng</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="payment">Thanh toán</string>
+    <string name="ship">Phí vận chuyển</string>
+    <string name="Address">nhà A xóm B ngõ C</string>
+    <string name="sumTotal">Tổng</string>
+    <string name="DeliveryAddress">Địa chỉ nhận hàng</string>
+    <string name="country">Quốc gia</string>
+    <string name="province">Tỉnh/thành phố</string>
+    <string name="city">Quận/huyện</string>
+    <string name="wards">Phường/Xã</string>
+    <string name="Address1">Địa chỉ</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="rememberAddress">Lưu địa chỉ thanh toán</string>
+    <string name="vina">Việt Nam</string>
+    <string name="HaNoi">Hà Nội</string>
+    <string name="selectPaymentMethod">Chọn phương thức thanh toán?</string>
+    <string name="NameCard">Tên chủ thẻ</string>
+    <string name="NumberCard">Số thẻ</string>
+    <string name="NumberCard2">XXXX-XXXX-XXXX-XXXX</string>
+    <string name="cvv">CVV</string>
+    <string name="xxx">xxx</string>
+    <string name="expired">Hết hạn</string>
+    <string name="time">00:00:00</string>
+    <string name="PaymentSuccess">Thanh toán thành công!</string>
+    <string name="ThankForBuyIt">Cảm ơn bạn đã mua hàng!</string>
+    <string name="PaymentFailed">Thanh toán thất bại!</string>
+    <string name="retry">Thử lại</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="shoe">Nike..</string>
+    <string name="setting">Cài đặt</string>
+    <string name="infor">Thông tin</string>
+    <string name="information">Thông tin</string>
+    <string name="changePassword">Thay đổi mật khẩu</string>
+    <string name="notification">Thông Báo</string>
+    <string name="PaymentMethod">Phương Thức Thanh Toán</string>
+    <string name="history">Lịch Sử Mua Hàng</string>
+    <string name="help">Trợ Giúp</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="orders">Orders</string>
+    <string name="hintDistrict">Ba Đình</string>
+    <string name="hintAddress">Số 33, Văn Cao, Liễu Giai...</string>
+    <string name="content">Nội dung</string>
+    <string name="forgetPassword">Quên mật khẩu</string>
+    <string-array name="country_array">
+        <item>Việt Nam</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="province_array">
+        <item>Quảng ninh</item>
+        <item>Hải phòng</item>
+        <item>Vĩnh phúc</item>
+        <item>Hà Nội</item>
+        <item>Nam Định</item>
+        <item>Thái Bình</item>
+        <item>Tuyên Quang</item>
+        <item>Phú Thọ</item>
+    </string-array>
+</resources>
